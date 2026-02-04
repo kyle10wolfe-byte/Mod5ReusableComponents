@@ -7,6 +7,8 @@
     background-color: #ebebeb;
 }
 
+
+
 .modal {
     border-radius: 4px;
     background-color: white;
@@ -15,7 +17,7 @@
     width: 460px;
     z-index: 1000;
     position: fixed;
-    top: 200%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

@@ -1,10 +1,11 @@
 import './Todo.css';
 
-function Todo() {
+function Todo({title, onTodoDelete }) {
     return (
         <div className="todo">
-        <h2>Finish Frontend Simplified</h2>
-        <button>Delete</button>
+        <p>{title}</p>
+      
+        <button onClick={onTodoDelete}>Delete</button>
       </div>
     )
 }
